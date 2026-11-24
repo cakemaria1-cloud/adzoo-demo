@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-172 -76 344 152" width="344" height="152" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="jungleacid">
+      <stop offset="0%" stop-color="#FF5000"/>
+      <stop offset="23%" stop-color="#F9B5D6"/>
+      <stop offset="43%" stop-color="#CAFF00"/>
+      <stop offset="67%" stop-color="#00F530"/>
+      <stop offset="100%" stop-color="#4433FF"/>
+    </linearGradient>
+    <radialGradient id="jungleeye">
+      <stop offset="0%" stop-color="#211E20"/>
+      <stop offset="23%" stop-color="#211E20"/>
+      <stop offset="35%" stop-color="#00BFFF"/>
+      <stop offset="51%" stop-color="#FF364E"/>
+      <stop offset="66%" stop-color="#FF9528"/>
+      <stop offset="82%" stop-color="#CAFF00"/>
+    </radialGradient>
+    <linearGradient id="nativeacid">
+      <stop offset="0%" stop-color="#CAFF00"/>
+      <stop offset="24%" stop-color="#FF80DB"/>
+      <stop offset="50%" stop-color="#FF5000"/>
+      <stop offset="66%" stop-color="#F4F2E9"/>
+      <stop offset="82%" stop-color="#00F530"/>
+      <stop offset="100%" stop-color="#4433FF"/>
+    </linearGradient>
+    <linearGradient id="noiseacid">
+      <stop offset="0%" stop-color="#CAFF00"/>
+      <stop offset="28%" stop-color="#FF71DD"/>
+      <stop offset="50%" stop-color="#FF5000"/>
+      <stop offset="74%" stop-color="#00F530"/>
+      <stop offset="100%" stop-color="#4433FF"/>
+    </linearGradient>
+    <radialGradient id="finalacid">
+      <stop offset="0%" stop-color="#211E20"/>
+      <stop offset="23%" stop-color="#211E20"/>
+      <stop offset="32%" stop-color="#00BFFF"/>
+      <stop offset="46%" stop-color="#4433FF"/>
+      <stop offset="57%" stop-color="#FF507C"/>
+      <stop offset="70%" stop-color="#FF5000"/>
+      <stop offset="87%" stop-color="#CAFF00"/>
+    </radialGradient>
+    <clipPath id="nativebody">
+      <path d="M91 158 Q87 76 169 81 Q218 56 269 91 L299 76 L323 105 L352 122 L334 159 Q307 181 264 160 Q199 203 91 158Z" fill="#211E20"/>
+    </clipPath>
+    <linearGradient id="seam1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E1B20"/>
+      <stop offset="100%" stop-color="#CAFF00"/>
+    </linearGradient>
+    <linearGradient id="seam2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#CAFF00"/>
+      <stop offset="100%" stop-color="#4433FF"/>
+    </linearGradient>
+    <linearGradient id="seam3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4433FF"/>
+      <stop offset="100%" stop-color="#211E20"/>
+    </linearGradient>
+  </defs>
+  <path d="M-167 0 Q0 -141 167 0 Q0 141 -167 0Z" fill="#F4F2E9"/>
+  <ellipse cx="-133" cy="0" rx="8" ry="22.0" fill="#211E20"/>
+  <ellipse cx="-100" cy="0" rx="12" ry="38.07270415933377" fill="#211E20"/>
+  <ellipse cx="-67" cy="0" rx="16" ry="51.698484809834994" fill="#211E20"/>
+  <ellipse cx="-34" cy="0" rx="8" ry="60.80294036547404" fill="#211E20"/>
+  <ellipse cx="-1" cy="0" rx="12" ry="64.0" fill="#211E20"/>
+  <ellipse cx="32" cy="0" rx="16" ry="60.80294036547404" fill="#211E20"/>
+  <ellipse cx="65" cy="0" rx="8" ry="51.698484809834994" fill="#211E20"/>
+  <ellipse cx="98" cy="0" rx="12" ry="38.072704159333774" fill="#211E20"/>
+  <ellipse cx="131" cy="0" rx="16" ry="22.000000000000004" fill="#211E20"/>
+</svg>

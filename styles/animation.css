@@ -1,0 +1,137 @@
+/* Движение: класс задаёт скорость, @keyframes — положение объекта. */
+.forest-leaf { animation: forest-sway 3s ease-in-out infinite; }
+@keyframes forest-sway {
+    0%, 100% { transform: rotate(-8deg); }
+    50% { transform: rotate(9deg); }
+}
+.native-title-a { animation: titleA 3.4s linear infinite; }
+.native-title-b { animation: titleB 3.4s linear infinite; }
+.title-warp { animation: warp 1.7s ease-in-out infinite; }
+.native-strip { animation: strip 3.6s ease-in-out infinite; }
+.native-pupil { animation: pupil 3.2s ease-in-out infinite; }
+.glitch { animation: glitch 2.4s linear infinite; }
+.wheel { animation: spin 5.6s linear infinite; }
+.percent-spin { animation: spin 8s linear infinite; }
+.shout-panel { animation: shout 2.7s ease-in-out infinite; }
+.buy-panel { animation: buy 3.4s ease-in-out infinite; }
+.flyer-rock { animation: paper 3.8s ease-in-out infinite; }
+.tear { animation: fall 4.8s ease-in infinite; }
+.tear1 { animation-delay: -1.2s; }
+.tear3 { animation-delay: -2.4s; }
+.tear5 { animation-delay: -3.6s; }
+.loose-paper { animation: loose 3.6s ease-in-out infinite; }
+.more-bounce { animation: cta 1.9s ease-in-out infinite; }
+.eye-blink { animation: blink 5.1s ease-in-out infinite; }
+.iris { animation: look 3.8s ease-in-out infinite; }
+.final-type { animation: final 3.8s ease-in-out infinite; }
+
+@keyframes blink {
+    0%,44%,54%,100% { transform:scaleY(1); }
+    49% { transform:scaleY(.07); }
+}
+
+@keyframes cta {
+    0%,100% { transform:translateX(0%) rotate(0); }
+    18% { transform:translateX(-3.25%) rotate(6deg); }
+    34% { transform:translateX(0.5%) rotate(-3deg); }
+    49% { transform:translateX(0%); }
+}
+
+@keyframes titleA {
+    0%,46% { opacity:1; }
+    48%,98% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@keyframes titleB {
+    0%,46% { opacity:0; }
+    48%,98% { opacity:1; }
+    100% { opacity:0; }
+}
+
+@keyframes warp {
+    0%,100% { transform:scale(1,1); }
+    40% { transform:scale(.96,1.15) skewX(-5deg); }
+    65% { transform:scale(1.025,.94) skewX(3deg); }
+}
+
+@keyframes strip {
+    0%,100% { transform:translateX(0%); }
+    50% { transform:translateX(2.25%) scaleY(.92); }
+}
+
+@keyframes pupil {
+    0%,100% { transform:translate(0%, 0%); }
+    25% { transform:translate(-1.5%, 1.2%); }
+    60% { transform:translate(0.25%, -1.2%); }
+}
+
+@keyframes glitch {
+    0%, 38.9% { transform: translateX(0); }
+    39%, 51.9% { transform: translateX(-4.5%) scaleX(1.06); }
+    52%, 64.9% { transform: translateX(2.25%); }
+    65%, 100% { transform: translateX(0); }
+}
+
+@keyframes spin {
+    to { transform:rotate(360deg); }
+}
+
+@keyframes shout {
+    0%,100% { transform:translateX(0%) scale(1); }
+    23% { transform:translateX(3%) scale(1.04,.88); }
+    48% { transform:translateX(-2%) scale(.98,1.08); }
+    70% { transform:translateX(0%); }
+}
+
+@keyframes buy {
+    0%,100% { transform:translateX(0%); }
+    25% { transform:translateX(-3.75%) scaleX(.91); }
+    56% { transform:translateX(2%) scaleX(1.06); }
+    77% { transform:translateX(0%); }
+}
+
+@keyframes paper {
+    0%,100% { transform:rotate(-2deg); }
+    45% { transform:rotate(4deg) translateY(-1.6%); }
+    70% { transform:rotate(-3deg); }
+}
+
+@keyframes fall {
+    0%,42% { transform:translate(0%, 0%) rotate(0); opacity:1; }
+    49% { transform:translate(0%, 1.2%) rotate(-9deg); opacity:1; }
+    58% { transform:translate(0.75%, 3.6%) rotate(12deg); opacity:1; }
+    82% { transform:translate(4.75%, 29.6%) rotate(95deg); opacity:1; }
+    96%,99% { transform:translate(7%, 44.4%) rotate(150deg); opacity:0; }
+    100% { transform:translate(0%, 0%); opacity:1; }
+}
+
+@keyframes loose {
+    0%,100% { transform:translate(0%, 0%) rotate(-12deg); }
+    45% { transform:translate(-3%, -8%) rotate(21deg); }
+    70% { transform:translate(1.25%, 3.6%) rotate(-25deg); }
+}
+
+@keyframes look {
+    0%,100% { transform:translateX(0%) scale(1); }
+    22% { transform:translateX(-7%) scale(.85); }
+    48% { transform:translateX(6.5%) scale(.9); }
+    72% { transform:translateX(0%) scale(1.09); }
+}
+
+@keyframes final {
+    0%,100% { transform:scale(1); }
+    45% { transform:scale(.98,1.1); }
+    65% { transform:scale(1,.96); }
+}
+
+/* Единственное правило для общей кнопки паузы. */
+#pause:checked ~ main * { animation-play-state: paused; }
+#pause:checked ~ main .moving-pattern { display: none; }
+#pause:checked ~ main .still-pattern { display: block; }
+/* Учитываем системную настройку уменьшения движения. */
+@media (prefers-reduced-motion: reduce) {
+    main * { animation: none; }
+    .moving-pattern { display: none; }
+    .still-pattern { display: block; }
+}

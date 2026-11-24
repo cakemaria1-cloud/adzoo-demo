@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1000" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="jungleacid">
+      <stop offset="0%" stop-color="#FF5000"/>
+      <stop offset="23%" stop-color="#F9B5D6"/>
+      <stop offset="43%" stop-color="#CAFF00"/>
+      <stop offset="67%" stop-color="#00F530"/>
+      <stop offset="100%" stop-color="#4433FF"/>
+    </linearGradient>
+    <radialGradient id="jungleeye">
+      <stop offset="0%" stop-color="#211E20"/>
+      <stop offset="23%" stop-color="#211E20"/>
+      <stop offset="35%" stop-color="#00BFFF"/>
+      <stop offset="51%" stop-color="#FF364E"/>
+      <stop offset="66%" stop-color="#FF9528"/>
+      <stop offset="82%" stop-color="#CAFF00"/>
+    </radialGradient>
+    <linearGradient id="nativeacid">
+      <stop offset="0%" stop-color="#CAFF00"/>
+      <stop offset="24%" stop-color="#FF80DB"/>
+      <stop offset="50%" stop-color="#FF5000"/>
+      <stop offset="66%" stop-color="#F4F2E9"/>
+      <stop offset="82%" stop-color="#00F530"/>
+      <stop offset="100%" stop-color="#4433FF"/>
+    </linearGradient>
+    <linearGradient id="noiseacid">
+      <stop offset="0%" stop-color="#CAFF00"/>
+      <stop offset="28%" stop-color="#FF71DD"/>
+      <stop offset="50%" stop-color="#FF5000"/>
+      <stop offset="74%" stop-color="#00F530"/>
+      <stop offset="100%" stop-color="#4433FF"/>
+    </linearGradient>
+    <radialGradient id="finalacid">
+      <stop offset="0%" stop-color="#211E20"/>
+      <stop offset="23%" stop-color="#211E20"/>
+      <stop offset="32%" stop-color="#00BFFF"/>
+      <stop offset="46%" stop-color="#4433FF"/>
+      <stop offset="57%" stop-color="#FF507C"/>
+      <stop offset="70%" stop-color="#FF5000"/>
+      <stop offset="87%" stop-color="#CAFF00"/>
+    </radialGradient>
+    <clipPath id="nativebody">
+      <path d="M91 158 Q87 76 169 81 Q218 56 269 91 L299 76 L323 105 L352 122 L334 159 Q307 181 264 160 Q199 203 91 158Z" fill="#211E20"/>
+    </clipPath>
+    <linearGradient id="seam1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E1B20"/>
+      <stop offset="100%" stop-color="#CAFF00"/>
+    </linearGradient>
+    <linearGradient id="seam2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#CAFF00"/>
+      <stop offset="100%" stop-color="#4433FF"/>
+    </linearGradient>
+    <linearGradient id="seam3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4433FF"/>
+      <stop offset="100%" stop-color="#211E20"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="400" height="1000" fill="#211E20"/>
+  <rect x="0" y="0" width="400" height="250" fill="#1E1B20"/>
+  <rect x="0" y="250" width="400" height="250" fill="#CAFF00"/>
+  <rect x="0" y="500" width="400" height="250" fill="#4433FF"/>
+  <rect x="0" y="750" width="400" height="250" fill="#211E20"/>
+  <path d="M0 224 C80 205 110 241 205 223 S340 210 400 226 L400 275 C320 294 280 258 200 275 S65 289 0 275Z" fill="url(#seam1)"/>
+  <path d="M0 474 C80 455 110 491 205 473 S340 460 400 476 L400 525 C320 544 280 508 200 525 S65 539 0 525Z" fill="url(#seam2)"/>
+  <path d="M0 724 C80 705 110 741 205 723 S340 710 400 726 L400 775 C320 794 280 758 200 775 S65 789 0 775Z" fill="url(#seam3)"/>
+</svg>

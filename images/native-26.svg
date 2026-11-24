@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -7 190 49" width="190" height="49" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="jungleacid">
+      <stop offset="0%" stop-color="#FF5000"/>
+      <stop offset="23%" stop-color="#F9B5D6"/>
+      <stop offset="43%" stop-color="#CAFF00"/>
+      <stop offset="67%" stop-color="#00F530"/>
+      <stop offset="100%" stop-color="#4433FF"/>
+    </linearGradient>
+    <radialGradient id="jungleeye">
+      <stop offset="0%" stop-color="#211E20"/>
+      <stop offset="23%" stop-color="#211E20"/>
+      <stop offset="35%" stop-color="#00BFFF"/>
+      <stop offset="51%" stop-color="#FF364E"/>
+      <stop offset="66%" stop-color="#FF9528"/>
+      <stop offset="82%" stop-color="#CAFF00"/>
+    </radialGradient>
+    <linearGradient id="nativeacid">
+      <stop offset="0%" stop-color="#CAFF00"/>
+      <stop offset="24%" stop-color="#FF80DB"/>
+      <stop offset="50%" stop-color="#FF5000"/>
+      <stop offset="66%" stop-color="#F4F2E9"/>
+      <stop offset="82%" stop-color="#00F530"/>
+      <stop offset="100%" stop-color="#4433FF"/>
+    </linearGradient>
+    <linearGradient id="noiseacid">
+      <stop offset="0%" stop-color="#CAFF00"/>
+      <stop offset="28%" stop-color="#FF71DD"/>
+      <stop offset="50%" stop-color="#FF5000"/>
+      <stop offset="74%" stop-color="#00F530"/>
+      <stop offset="100%" stop-color="#4433FF"/>
+    </linearGradient>
+    <radialGradient id="finalacid">
+      <stop offset="0%" stop-color="#211E20"/>
+      <stop offset="23%" stop-color="#211E20"/>
+      <stop offset="32%" stop-color="#00BFFF"/>
+      <stop offset="46%" stop-color="#4433FF"/>
+      <stop offset="57%" stop-color="#FF507C"/>
+      <stop offset="70%" stop-color="#FF5000"/>
+      <stop offset="87%" stop-color="#CAFF00"/>
+    </radialGradient>
+    <clipPath id="nativebody">
+      <path d="M91 158 Q87 76 169 81 Q218 56 269 91 L299 76 L323 105 L352 122 L334 159 Q307 181 264 160 Q199 203 91 158Z" fill="#211E20"/>
+    </clipPath>
+    <linearGradient id="seam1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E1B20"/>
+      <stop offset="100%" stop-color="#CAFF00"/>
+    </linearGradient>
+    <linearGradient id="seam2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#CAFF00"/>
+      <stop offset="100%" stop-color="#4433FF"/>
+    </linearGradient>
+    <linearGradient id="seam3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4433FF"/>
+      <stop offset="100%" stop-color="#211E20"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="180" height="37" fill="#211E20"/>
+  <text x="90" y="29" font-size="34" fill="url(#nativeacid)" font-weight="900" text-anchor="middle" transform=" translate(90 29) scale(1.39168 1) translate(-90 -29)">NATIVE</text>
+</svg>
